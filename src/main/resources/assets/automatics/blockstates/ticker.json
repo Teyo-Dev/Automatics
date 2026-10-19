@@ -1,0 +1,244 @@
+{
+  "variants": {
+    "delay=1,facing=east,activated=false,powered=false": {
+      "model": "automatics:block/ticker_1tick",
+      "y": 270
+    },
+    "delay=1,facing=east,activated=false,powered=true": {
+      "model": "automatics:block/ticker_1tick_powered",
+      "y": 270
+    },
+    "delay=1,facing=east,activated=true,powered=false": {
+      "model": "automatics:block/ticker_1tick_on",
+      "y": 270
+    },
+    "delay=1,facing=east,activated=true,powered=true": {
+      "model": "automatics:block/ticker_1tick_powered",
+      "y": 270
+    },
+    "delay=1,facing=north,activated=false,powered=false": {
+      "model": "automatics:block/ticker_1tick",
+      "y": 180
+    },
+    "delay=1,facing=north,activated=false,powered=true": {
+      "model": "automatics:block/ticker_1tick_powered",
+      "y": 180
+    },
+    "delay=1,facing=north,activated=true,powered=false": {
+      "model": "automatics:block/ticker_1tick_on",
+      "y": 180
+    },
+    "delay=1,facing=north,activated=true,powered=true": {
+      "model": "automatics:block/ticker_1tick_powered",
+      "y": 180
+    },
+    "delay=1,facing=south,activated=false,powered=false": {
+      "model": "automatics:block/ticker_1tick"
+    },
+    "delay=1,facing=south,activated=false,powered=true": {
+      "model": "automatics:block/ticker_1tick_powered"
+    },
+    "delay=1,facing=south,activated=true,powered=false": {
+      "model": "automatics:block/ticker_1tick_on"
+    },
+    "delay=1,facing=south,activated=true,powered=true": {
+      "model": "automatics:block/ticker_1tick_powered"
+    },
+    "delay=1,facing=west,activated=false,powered=false": {
+      "model": "automatics:block/ticker_1tick",
+      "y": 90
+    },
+    "delay=1,facing=west,activated=false,powered=true": {
+      "model": "automatics:block/ticker_1tick_powered",
+      "y": 90
+    },
+    "delay=1,facing=west,activated=true,powered=false": {
+      "model": "automatics:block/ticker_1tick_on",
+      "y": 90
+    },
+    "delay=1,facing=west,activated=true,powered=true": {
+      "model": "automatics:block/ticker_1tick_powered",
+      "y": 90
+    },
+    "delay=2,facing=east,activated=false,powered=false": {
+      "model": "automatics:block/ticker_2tick",
+      "y": 270
+    },
+    "delay=2,facing=east,activated=false,powered=true": {
+      "model": "automatics:block/ticker_2tick_powered",
+      "y": 270
+    },
+    "delay=2,facing=east,activated=true,powered=false": {
+      "model": "automatics:block/ticker_2tick_on",
+      "y": 270
+    },
+    "delay=2,facing=east,activated=true,powered=true": {
+      "model": "automatics:block/ticker_2tick_powered",
+      "y": 270
+    },
+    "delay=2,facing=north,activated=false,powered=false": {
+      "model": "automatics:block/ticker_2tick",
+      "y": 180
+    },
+    "delay=2,facing=north,activated=false,powered=true": {
+      "model": "automatics:block/ticker_2tick_powered",
+      "y": 180
+    },
+    "delay=2,facing=north,activated=true,powered=false": {
+      "model": "automatics:block/ticker_2tick_on",
+      "y": 180
+    },
+    "delay=2,facing=north,activated=true,powered=true": {
+      "model": "automatics:block/ticker_2tick_powered",
+      "y": 180
+    },
+    "delay=2,facing=south,activated=false,powered=false": {
+      "model": "automatics:block/ticker_2tick"
+    },
+    "delay=2,facing=south,activated=false,powered=true": {
+      "model": "automatics:block/ticker_2tick_powered"
+    },
+    "delay=2,facing=south,activated=true,powered=false": {
+      "model": "automatics:block/ticker_2tick_on"
+    },
+    "delay=2,facing=south,activated=true,powered=true": {
+      "model": "automatics:block/ticker_2tick_powered"
+    },
+    "delay=2,facing=west,activated=false,powered=false": {
+      "model": "automatics:block/ticker_2tick",
+      "y": 90
+    },
+    "delay=2,facing=west,activated=false,powered=true": {
+      "model": "automatics:block/ticker_2tick_powered",
+      "y": 90
+    },
+    "delay=2,facing=west,activated=true,powered=false": {
+      "model": "automatics:block/ticker_2tick_on",
+      "y": 90
+    },
+    "delay=2,facing=west,activated=true,powered=true": {
+      "model": "automatics:block/ticker_2tick_powered",
+      "y": 90
+    },
+    "delay=3,facing=east,activated=false,powered=false": {
+      "model": "automatics:block/ticker_3tick",
+      "y": 270
+    },
+    "delay=3,facing=east,activated=false,powered=true": {
+      "model": "automatics:block/ticker_3tick_powered",
+      "y": 270
+    },
+    "delay=3,facing=east,activated=true,powered=false": {
+      "model": "automatics:block/ticker_3tick_on",
+      "y": 270
+    },
+    "delay=3,facing=east,activated=true,powered=true": {
+      "model": "automatics:block/ticker_3tick_powered",
+      "y": 270
+    },
+    "delay=3,facing=north,activated=false,powered=false": {
+      "model": "automatics:block/ticker_3tick",
+      "y": 180
+    },
+    "delay=3,facing=north,activated=false,powered=true": {
+      "model": "automatics:block/ticker_3tick_powered",
+      "y": 180
+    },
+    "delay=3,facing=north,activated=true,powered=false": {
+      "model": "automatics:block/ticker_3tick_on",
+      "y": 180
+    },
+    "delay=3,facing=north,activated=true,powered=true": {
+      "model": "automatics:block/ticker_3tick_powered",
+      "y": 180
+    },
+    "delay=3,facing=south,activated=false,powered=false": {
+      "model": "automatics:block/ticker_3tick"
+    },
+    "delay=3,facing=south,activated=false,powered=true": {
+      "model": "automatics:block/ticker_3tick_powered"
+    },
+    "delay=3,facing=south,activated=true,powered=false": {
+      "model": "automatics:block/ticker_3tick_on"
+    },
+    "delay=3,facing=south,activated=true,powered=true": {
+      "model": "automatics:block/ticker_3tick_powered"
+    },
+    "delay=3,facing=west,activated=false,powered=false": {
+      "model": "automatics:block/ticker_3tick",
+      "y": 90
+    },
+    "delay=3,facing=west,activated=false,powered=true": {
+      "model": "automatics:block/ticker_3tick_powered",
+      "y": 90
+    },
+    "delay=3,facing=west,activated=true,powered=false": {
+      "model": "automatics:block/ticker_3tick_on",
+      "y": 90
+    },
+    "delay=3,facing=west,activated=true,powered=true": {
+      "model": "automatics:block/ticker_3tick_powered",
+      "y": 90
+    },
+    "delay=4,facing=east,activated=false,powered=false": {
+      "model": "automatics:block/ticker_4tick",
+      "y": 270
+    },
+    "delay=4,facing=east,activated=false,powered=true": {
+      "model": "automatics:block/ticker_4tick_powered",
+      "y": 270
+    },
+    "delay=4,facing=east,activated=true,powered=false": {
+      "model": "automatics:block/ticker_4tick_on",
+      "y": 270
+    },
+    "delay=4,facing=east,activated=true,powered=true": {
+      "model": "automatics:block/ticker_4tick_powered",
+      "y": 270
+    },
+    "delay=4,facing=north,activated=false,powered=false": {
+      "model": "automatics:block/ticker_4tick",
+      "y": 180
+    },
+    "delay=4,facing=north,activated=false,powered=true": {
+      "model": "automatics:block/ticker_4tick_powered",
+      "y": 180
+    },
+    "delay=4,facing=north,activated=true,powered=false": {
+      "model": "automatics:block/ticker_4tick_on",
+      "y": 180
+    },
+    "delay=4,facing=north,activated=true,powered=true": {
+      "model": "automatics:block/ticker_4tick_powered",
+      "y": 180
+    },
+    "delay=4,facing=south,activated=false,powered=false": {
+      "model": "automatics:block/ticker_4tick"
+    },
+    "delay=4,facing=south,activated=false,powered=true": {
+      "model": "automatics:block/ticker_4tick_powered"
+    },
+    "delay=4,facing=south,activated=true,powered=false": {
+      "model": "automatics:block/ticker_4tick_on"
+    },
+    "delay=4,facing=south,activated=true,powered=true": {
+      "model": "automatics:block/ticker_4tick_powered"
+    },
+    "delay=4,facing=west,activated=false,powered=false": {
+      "model": "automatics:block/ticker_4tick",
+      "y": 90
+    },
+    "delay=4,facing=west,activated=false,powered=true": {
+      "model": "automatics:block/ticker_4tick_powered",
+      "y": 90
+    },
+    "delay=4,facing=west,activated=true,powered=false": {
+      "model": "automatics:block/ticker_4tick_on",
+      "y": 90
+    },
+    "delay=4,facing=west,activated=true,powered=true": {
+      "model": "automatics:block/ticker_4tick_powered",
+      "y": 90
+    }
+  }
+}

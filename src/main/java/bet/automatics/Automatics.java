@@ -1,6 +1,7 @@
 package bet.automatics;
 
 import bet.automatics.level.block.ModBlocks;
+import bet.automatics.level.block.entity.ModBlockEntityTypes;
 import bet.automatics.level.item.ModCreativeModeTabs;
 import bet.automatics.level.item.ModItems;
 import org.slf4j.Logger;
@@ -21,5 +22,6 @@ public class Automatics {
         ModBlocks.register(eventBus);
         ModItems.register(eventBus);
         ModCreativeModeTabs.register(eventBus);
+        ModBlockEntityTypes.BLOCK_ENTITY_TYPES.register(eventBus);
     }
 }

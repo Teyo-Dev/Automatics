@@ -1,6 +1,8 @@
 package bet.automatics.level.block;
 
 import bet.automatics.Automatics;
+import bet.automatics.level.block.custom.MinerBlock;
+import bet.automatics.level.block.custom.TickerBlock;
 import bet.automatics.level.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.Block;
@@ -17,9 +19,19 @@ public class ModBlocks {
     private static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Automatics.MOD_ID);
 
     // All blocks
-    public static final DeferredBlock<Block> BREAKER = registerBlock(
-            "breaker",
-            properties -> new Block(properties
+    public static final DeferredBlock<Block> MINER = registerBlock(
+            "miner",
+            properties -> new MinerBlock(properties
+                    .mapColor(MapColor.COLOR_GRAY)
+                    .noOcclusion()
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(2.0F, 6.0F))
+    );
+
+    public static final DeferredBlock<Block> TICKER = registerBlock(
+            "ticker",
+            properties -> new TickerBlock(properties
                     .mapColor(MapColor.COLOR_GRAY)
                     .noOcclusion()
                     .instrument(NoteBlockInstrument.BASEDRUM)

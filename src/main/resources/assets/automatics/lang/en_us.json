@@ -1,3 +1,7 @@
 {
-  "itemGroup.automatics_items": "Automatics Items"
+  "itemGroup.automatics_items": "Automatics Items",
+
+  "block.automatics.miner": "Miner",
+  "block.automatics.ticker": "Redstone Ticker",
+  "container.automatics.miner": "Miner"
 }

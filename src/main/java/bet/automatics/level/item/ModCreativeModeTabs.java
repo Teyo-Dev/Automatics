@@ -16,10 +16,11 @@ public class ModCreativeModeTabs {
 
 
     public static final Supplier<CreativeModeTab> AUTOMATICS_ITEMS = CREATIVE_MODE_TABS.register("automatics_items",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.BREAKER.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.MINER.get()))
                     .title(Component.translatable("itemGroup.automatics_items"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModBlocks.BREAKER);
+                        output.accept(ModBlocks.MINER);
+                        output.accept(ModBlocks.TICKER);
                     })
                     .build());
 

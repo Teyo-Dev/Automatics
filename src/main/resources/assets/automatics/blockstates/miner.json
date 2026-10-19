@@ -1,0 +1,53 @@
+{
+  "variants": {
+    "facing=down,triggered=false": {
+      "model": "automatics:block/miner_vertical",
+      "x": 180
+    },
+    "facing=down,triggered=true": {
+      "model": "automatics:block/miner_vertical_triggered",
+      "x": 180
+    },
+
+    "facing=east,triggered=false": {
+      "model": "automatics:block/miner",
+      "y": 90
+    },
+    "facing=east,triggered=true": {
+      "model": "automatics:block/miner_triggered",
+      "y": 90
+    },
+
+    "facing=north,triggered=false": {
+      "model": "automatics:block/miner"
+    },
+    "facing=north,triggered=true": {
+      "model": "automatics:block/miner_triggered"
+    },
+
+    "facing=south,triggered=false": {
+      "model": "automatics:block/miner",
+      "y": 180
+    },
+    "facing=south,triggered=true": {
+      "model": "automatics:block/miner_triggered",
+      "y": 180
+    },
+
+    "facing=up,triggered=false": {
+      "model": "automatics:block/miner_vertical"
+    },
+    "facing=up,triggered=true": {
+      "model": "automatics:block/miner_vertical_triggered"
+    },
+
+    "facing=west,triggered=false": {
+      "model": "automatics:block/miner",
+      "y": 270
+    },
+    "facing=west,triggered=true": {
+      "model": "automatics:block/miner_triggered",
+      "y": 270
+    }
+  }
+}
