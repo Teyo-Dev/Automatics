@@ -17,7 +17,8 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider registries) {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.MINER.key());
+                .add(ModBlocks.MINER.key())
+                .add(ModBlocks.STOCK_CRATE.key());
 
     }
 }

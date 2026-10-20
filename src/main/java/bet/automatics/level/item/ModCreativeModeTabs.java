@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("itemGroup.automatics_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.MINER);
+                        output.accept(ModBlocks.STOCK_CRATE);
                         output.accept(ModBlocks.TICKER);
                     })
                     .build());

@@ -13,12 +13,15 @@ public class ModBlockEntityTypes {
 
     public static final Supplier<BlockEntityType<MinerBlockEntity>> MINER =
             BLOCK_ENTITY_TYPES.register("miner", () -> new BlockEntityType<>(
-                            MinerBlockEntity::new,
-                            false,
-                            ModBlocks.MINER.get()
-                    )
+                    MinerBlockEntity::new,
+                    false,
+                    ModBlocks.MINER.get())
             );
 
-    private ModBlockEntityTypes() {
-    }
+    public static final Supplier<BlockEntityType<StockCrateBlockEntity>> STOCK_CRATE =
+            BLOCK_ENTITY_TYPES.register("stock_crate", () -> new BlockEntityType<>(
+                    StockCrateBlockEntity::new,
+                    false,
+                    ModBlocks.STOCK_CRATE.get())
+            );
 }

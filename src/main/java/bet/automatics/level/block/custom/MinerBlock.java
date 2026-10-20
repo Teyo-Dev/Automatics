@@ -88,7 +88,7 @@ public class MinerBlock extends BaseEntityBlock {
 
     @Override
     public @Nullable BlockEntity newBlockEntity(BlockPos worldPosition, BlockState blockState) {
-        return new MinerBlockEntity(worldPosition, blockState); //new BreakerBlockEntity(pos, state);
+        return new MinerBlockEntity(worldPosition, blockState);
     }
 
     private void impulseBlockEntity(@Nullable BlockEntity blockEntity, ServerLevel level) {

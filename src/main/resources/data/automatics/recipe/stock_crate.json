@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    " I ",
+    "I#I",
+    " I "
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "#": "minecraft:barrel"
+  },
+  "result": {
+    "id": "automatics:stock_crate",
+    "count": 1
+  }
+}

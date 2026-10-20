@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "automatics:block/stock_crate"
+    }
+  }
+}

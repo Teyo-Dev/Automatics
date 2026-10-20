@@ -2,10 +2,12 @@ package bet.automatics.level.block;
 
 import bet.automatics.Automatics;
 import bet.automatics.level.block.custom.MinerBlock;
+import bet.automatics.level.block.custom.StockCrateBlock;
 import bet.automatics.level.block.custom.TickerBlock;
 import bet.automatics.level.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
@@ -38,6 +40,14 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .strength(2.0F, 6.0F))
     );
+
+    public static final DeferredBlock<Block> STOCK_CRATE = registerBlock(
+            "stock_crate",
+            properties -> new StockCrateBlock(properties
+                    .mapColor(MapColor.RAW_IRON)
+                    .instrument(NoteBlockInstrument.BASS)
+                    .strength(2.5F)
+                    .sound(SoundType.IRON).ignitedByLava()));
 
 
     private static <T extends Block> DeferredBlock <T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function) {
