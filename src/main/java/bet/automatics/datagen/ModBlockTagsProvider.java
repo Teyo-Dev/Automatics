@@ -19,6 +19,5 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.MINER.key())
                 .add(ModBlocks.STOCK_CRATE.key());
-
     }
 }

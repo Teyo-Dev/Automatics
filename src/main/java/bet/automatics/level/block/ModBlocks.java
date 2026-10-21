@@ -11,6 +11,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.material.PushReaction;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -18,7 +19,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import java.util.function.Function;
 
 public class ModBlocks {
-    private static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Automatics.MOD_ID);
+    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Automatics.MOD_ID);
 
     // All blocks
     public static final DeferredBlock<Block> MINER = registerBlock(
@@ -34,20 +35,18 @@ public class ModBlocks {
     public static final DeferredBlock<Block> TICKER = registerBlock(
             "ticker",
             properties -> new TickerBlock(properties
-                    .mapColor(MapColor.COLOR_GRAY)
-                    .noOcclusion()
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-                    .requiresCorrectToolForDrops()
-                    .strength(2.0F, 6.0F))
-    );
+                    .instabreak()
+                    .sound(SoundType.STONE)
+                    .pushReaction(PushReaction.POPPED)));
 
     public static final DeferredBlock<Block> STOCK_CRATE = registerBlock(
             "stock_crate",
             properties -> new StockCrateBlock(properties
-                    .mapColor(MapColor.RAW_IRON)
-                    .instrument(NoteBlockInstrument.BASS)
-                    .strength(2.5F)
-                    .sound(SoundType.IRON).ignitedByLava()));
+                    .mapColor(MapColor.METAL)
+                    .instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresCorrectToolForDrops()
+                    .strength(5.0F, 6.0F)
+                    .sound(SoundType.IRON)));
 
 
     private static <T extends Block> DeferredBlock <T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function) {

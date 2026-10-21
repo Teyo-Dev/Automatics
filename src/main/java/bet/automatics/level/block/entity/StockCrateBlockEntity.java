@@ -25,7 +25,7 @@ import java.util.List;
 /// Note at myself how tf did I get this to work
 
 public class StockCrateBlockEntity extends BlockEntity implements ContainerSingleItem.BlockContainerSingleItem, RandomizableContainer {
-    private static final int CAPACITY = 3000;
+    private static final int CAPACITY = 3200;
     private ItemStack storedItem = ItemStack.EMPTY;
     private int storedCount = 0;
     protected @Nullable ResourceKey<LootTable> lootTable;

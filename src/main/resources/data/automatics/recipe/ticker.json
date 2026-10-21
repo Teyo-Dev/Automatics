@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "TTT",
+    "QRQ",
+    "###"
+  ],
+  "key": {
+    "T": "minecraft:redstone_torch",
+    "R": "minecraft:redstone",
+    "Q": "minecraft:quartz",
+    "#": "minecraft:stone"
+  },
+  "result": {
+    "id": "automatics:ticker",
+    "count": 1
+  }
+}

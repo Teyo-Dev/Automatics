@@ -11,16 +11,7 @@ import net.minecraft.world.item.ItemStack;
 import org.jspecify.annotations.Nullable;
 
 public class MinerMenu extends AbstractContainerMenu {
-    private static final int SLOT_COUNT = 9;
-    private static final int INV_SLOT_START = 9;
-    private static final int INV_SLOT_END = 36;
-    private static final int USE_ROW_SLOT_START = 36;
-    private static final int USE_ROW_SLOT_END = 45;
     private final Container miner;
-
-    public MinerMenu(int containerId, Inventory inventory) {
-        this(containerId, inventory, new SimpleContainer(9));
-    }
 
     public MinerMenu(int containerId, Inventory inventory, Container miner) {
         super(MenuType.GENERIC_3x3, containerId);
